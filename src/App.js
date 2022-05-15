@@ -23,7 +23,7 @@ function App() {
                   
                   <Routes>
                       <Route path='/' element={<Home />} />
-                      <Route path='/safetyapp' element={<Home />} />
+                      <Route path='/safetyapp' element={<AuditInspection />} />
                       <Route path='/audit-inspection' element={<AuditInspection />} />
                       <Route path='/my-responsibilities' element={<MyResponsibilities />} />
                       <Route path='/incident-management' element={<IncidentManagement />} />
