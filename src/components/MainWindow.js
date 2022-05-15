@@ -20,7 +20,7 @@ function MainWindow() {
             <div className="xs:w-full md:w-4/5">
                 
                     <Routes>
-                        <Route path='/' element={<Navigate to="/audit-inspection" />} />
+                        <Route path='/' element={<Home />} />
                         <Route path='/audit-inspection' element={<AuditInspection />} />
                         <Route path='/my-responsibilities' element={<MyResponsibilities />} />
                         <Route path='/incident-management' element={<IncidentManagement />} />
