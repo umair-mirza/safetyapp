@@ -1,7 +1,8 @@
 import './App.css';
-import {BrowserRouter as Router} from 'react-router-dom';
+import {BrowserRouter as Router, Route} from 'react-router-dom';
 import MainWindow from './components/MainWindow';
 import NavBar from './components/NavBar';
+import Home from './pages/Home'
 
 function App() {
   return (
