@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/safetyapp/static/css/main.b0314b96.css",
-    "main.js": "/safetyapp/static/js/main.7e44b957.js",
+    "main.js": "/safetyapp/static/js/main.b03a879d.js",
     "static/media/electric-vibrator.png": "/safetyapp/static/media/electric-vibrator.92b6161a00b95e10f66d.png",
     "static/media/logo.png": "/safetyapp/static/media/logo.5fe8bf597f70dc7f7c91.png",
     "index.html": "/safetyapp/index.html",
     "main.b0314b96.css.map": "/safetyapp/static/css/main.b0314b96.css.map",
-    "main.7e44b957.js.map": "/safetyapp/static/js/main.7e44b957.js.map"
+    "main.b03a879d.js.map": "/safetyapp/static/js/main.b03a879d.js.map"
   },
   "entrypoints": [
     "static/css/main.b0314b96.css",
-    "static/js/main.7e44b957.js"
+    "static/js/main.b03a879d.js"
   ]
 }
