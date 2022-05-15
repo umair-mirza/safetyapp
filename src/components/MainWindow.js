@@ -1,5 +1,6 @@
 import React from 'react'
 import {BrowserRouter as Router, Routes, Route, Navigate} from 'react-router-dom';
+import Home from '../pages/Home';
 import AuditInspection from '../pages/AuditInspection';
 import IncidentManagement from '../pages/IncidentManagement';
 import LearningManagement from '../pages/LearningManagement';
@@ -18,6 +19,7 @@ function MainWindow() {
                 <LeftNav />
             </div>
             <div className="xs:w-full md:w-4/5">
+                <Home />
                 
                     <Routes>
                         <Route path='/' element={<Navigate to="/audit-inspection" />} />
