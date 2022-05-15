@@ -1,5 +1,6 @@
 import './App.css';
 import {BrowserRouter as Router, Routes, Route, Navigate} from 'react-router-dom';
+import Home from './pages/Home';
 import AuditInspection from './pages/AuditInspection';
 import IncidentManagement from './pages/IncidentManagement';
 import LearningManagement from './pages/LearningManagement';
@@ -21,7 +22,7 @@ function App() {
           <div className="xs:w-full md:w-4/5">
                   
                   <Routes>
-                      <Route path='/' element={<Navigate to="/audit-inspection" />} />
+                      <Route path='/' element={<Home />} />
                       <Route path='/audit-inspection' element={<AuditInspection />} />
                       <Route path='/my-responsibilities' element={<MyResponsibilities />} />
                       <Route path='/incident-management' element={<IncidentManagement />} />
